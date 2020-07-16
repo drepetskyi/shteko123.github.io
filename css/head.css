@@ -1,0 +1,105 @@
+/*colors
+    	rgb(236, 233, 224) - сірий обводка
+        rgb(78, 61, 139) - буква S
+        rgb(224, 17, 125) - буква H
+        rgb(0, 148, 222)- буква T
+*/
+
+.container{position: relative; padding-right: 2%; padding-left: 2%;  display: flex; z-index: 100; background: white;}
+.menu{width: 100%; display: flex; justify-content: space-between; padding-left: 2%; padding-right: 2%;}
+.project{width: 50%;}
+.burger1{height: 4px; width: 40px; margin-left: 80%; background: black; margin-top: 8px;}
+.burger2{height: 4px; width: 40px; margin-left: 80%; background: black; margin-top: 4px;}
+.burger3{height: 4px; width: 40px; margin-left: 80%; background: black; margin-top: 4px; margin-bottom: 3px;}
+
+.close{position: absolute; top: 0; right: 67%; width: 55px; height: 55px; cursor: pointer; border-radius: 50%; display: none;}
+.close:before, .close:after {content: ""; position: absolute; top: 21px; left: 10px; width: 26px; height: 4px; background: black;}
+.close:before {transform: rotate(45deg);}
+.close:after {transform: rotate(-45deg);}
+
+.close_mob_menu{position: absolute; top: 15px; left: 3%; width: 70px; height: 70px; cursor: pointer; border-radius: 50%;}
+.close_mob_menu:before, .close_mob_menu:after {content: ""; position: absolute; top: 21px; left: 10px; width: 40px; height: 4px; 
+    background: yellow; }
+.close_mob_menu:before {transform: rotate(45deg);}
+.close_mob_menu:after {transform: rotate(-45deg);}
+
+
+.logo{ margin-left: 30%; width: 50%;}
+.logo>a{color: black; text-decoration: none; font-size: xx-large;}
+
+.mob_menu{display: none; justify-content: right; width: 100%;}
+.mob_but{display: block;}
+.phone_m{margin: auto;}
+.phone_m>a{text-decoration: none; font-size: 40px; color:black; font:-weight bold;}
+.liniyka{position: absolute; margin-top: -4px; display: none; margin-left: 28px;}
+.open_m{position: relative;}
+.perelik{position: absolute; width: 100%; height: 80%; top: 173.5px; right: 10px; display: none; z-index: 99;}
+
+.p0{
+    height: 480px; width: 98%; margin-left: 3px; 
+    background:linear-gradient(to right, black, whitesmoke);
+    opacity: 0.8;
+    position: absolute; 
+    z-index: 99; top: 158.6px; display: none;}
+
+.line_yellow{height: 2px; width: 250px; position: absolute; 
+    background: yellow;
+    z-index: 101; 
+    background:linear-gradient(to left yellow, white 95%); 
+    -webkit-animation: ly; 
+            animation: ly;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}  
+.line_yellow1{height: 5px; width: 250px; position: absolute; display: none; margin-top: 479px;
+    background: yellow;
+    z-index: 101; 
+    background:linear-gradient(to left blue, white 95%); 
+    -webkit-animation: ly1; 
+            animation: ly1;
+    -webkit-animation-duration: 9s;
+            animation-duration: 9s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}  
+.vypadayuche_menu{
+    position: absolute; z-index: 99; text-align: center; margin-left: 25%; padding-top: 40px;
+    height: 475px; display: none;
+}
+.au_mob>a, .teckh_mob>a, .project_mob>a, .vary_mob>a{text-decoration: none; color: white; font-size: 50px;}
+
+
+@-webkit-keyframes ly{
+    0% {left: -10%;}
+    100% {left: 70%;}
+
+}
+
+
+@keyframes ly{
+    0% {left: -10%;}
+    100% {left: 70%;}
+
+}
+@-webkit-keyframes ly1{
+    0% {left: -10%;}
+    50% {background: white;}
+    100% {left: 70%;}
+
+}
+@keyframes ly1{
+    0% {left: -10%;}
+    50% {background: white;}
+    100% {left: 70%;}
+
+}
+
+/*====================================================MEDIA====================================================================================*/
+@media only screen and (max-width: 1235px) {
+    .menu{display: none;}
+    .mob_menu{display: flex;}
+    .line_yellow {display: block; height: 5px; }
+}
+

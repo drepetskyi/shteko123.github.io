@@ -1,0 +1,60 @@
+html, body{
+  background: black;
+}
+
+.nazva_o{ top: 0; position: fixed; background: white; width: 100%; padding-top: 10px; text-align: center; font-size: larger; height: 30px;
+  color: rgb(164, 192, 209); background: black; z-index: 100;}
+
+.bar{ height: 30px;}
+
+.korobka{ margin-left: 1%; margin-right: 1%; margin-bottom: 35px; display: flex;}
+
+.foto{width: 80%;}
+
+.koment{width: 18%; color: rgb(164, 192, 209); background: black; text-align: center; font-size: larger;
+  margin: auto; padding-left: 5px; padding-right: 5 px;}
+
+.info_fix{width: 20%;  left: 80%;
+  font-size: large; z-index: 101; color: white; position: fixed; bottom: 0px; padding-bottom: 30px; background: black;
+}
+.callback{
+  background: blue; font-size: x-large; text-align: center; margin: auto;
+}
+.comelback{
+   font-size: large; text-align: center; margin: auto; background: black;
+}
+.comelback>a{ text-decoration: none; color: white;}
+
+.forma_callback{ width:auto; display: none; justify-content: center; flex-wrap: wrap;
+  color: white; background: blue; position: fixed; padding: 10px; left: 35%; bottom: 50%;
+}
+.phone{
+  margin-top: 10px;
+}
+.go_cons{margin-top: 10px; }
+.go_no{ text-align: right; padding-bottom: 5px;}
+.korobka_vertical{
+  display: none;
+}
+
+.korobka_vertical>a{
+  font-size: 50px;
+  background: blue;
+  color: white; text-decoration: none; padding: 20px; right: 1px; bottom: 0; position: absolute;
+}
+
+
+@media only screen and (orientation:portrait) {
+  .korobka, .nazva_o, .bar, .info_fix {
+    display: none;
+  }
+  .korobka_vertical{
+    display: block;
+    min-height: 99vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+}

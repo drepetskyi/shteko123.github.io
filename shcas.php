@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="ua" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+
+            <!-- Google Tag Manager -->
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-XXXX');</script>
+        
+        <title>SHTEKO | Ремонт квартири у Львові | Дизайн квартири, інтер'єру</title>
+        <meta name="description" content= "Задумали ремонт квартири - допоможемо реалізувати. Професійно, швидко, чисто.">
+        <meta name="keywords" content="ремонт Львів, новобудови, новобудова, ремонт офісу, якісні роботи, дизайнерський ремонт, ціни на ремонт"/>
+
+        <link rel="stylesheet" href="css/portfolio.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="lib/owlcarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+        <link rel="icon" href="img/logo.jpg" type="images/jpg">
+
+    </head>
+
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-XXXX"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-YYYY"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+
+        
+        <!-- Container for the image gallery -->
+        <div class="cont">
+
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+            <img src="img/shaslyvyi/fivestar.jpg" style="width:100%" >
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="img/shaslyvyi/images.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="img/shaslyvyi/images1.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="img/shaslyvyi/images2.jpg" style="width:100%">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Image text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail images -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="img/shaslyvyi/fivestar.jpg" style="width:100%" onclick="currentSlide(1)" 
+                    alt="Оздоблення стін у ванній кімнаті виконувалось у стилі, що Вимагає клопіткої роботи майстра">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/shaslyvyi/images.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/shaslyvyi/images1.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/shaslyvyi/images2.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                </div>
+ 
+            </div>
+        </div> 
+    
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="js/portfolio.js"></script>
+
+
+    </body>
+
+
+</html>
