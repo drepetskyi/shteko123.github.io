@@ -18,11 +18,11 @@
                 <div class="burger3"></div>
             </div>
             <div class="close"></div>
-            <div class="logo"><a href="index.php"> SHTEKO</a></div>
+            <div class="logo"><a href="index.html"> SHTEKO</a></div>
         </div>
     
         <div class="mob_menu" id="mob_menu">
-            <div class="logom"><a href="index.php"> <img src="img/logo_sm_mob.jpg"> </a></div>
+            <div class="logom"><a href="index.html"> <img src="img/logo_sm_mob.jpg"> </a></div>
             <div class="phone_m"> <a href="tel:380970120020">+38 (097) 01 20 0 20</a></div>
             <div class=mob_but>
                 <div class="open_m" id = "open_m"><img src="img/mm_z.png"></div>        
